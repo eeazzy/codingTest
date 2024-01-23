@@ -4,17 +4,7 @@ class Solution {
         char word[] = myString.toCharArray();
         
         for(int i=0;i<word.length;i++){
-            if(word[i] == 'a' ||
-              word[i] == 'b' ||
-              word[i] == 'c' ||
-              word[i] == 'd' ||
-              word[i] == 'e' ||
-              word[i] == 'f' ||
-              word[i] == 'g' ||
-              word[i] == 'h' ||
-              word[i] == 'i' ||
-              word[i] == 'j' ||
-              word[i] == 'k'){
+            if(word[i]<'l'){
                 answer += "l";
             }
             else{
